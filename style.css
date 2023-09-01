@@ -1,0 +1,127 @@
+body{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+h2{
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 80px;
+}
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #acb4c9;
+	border-top: 2px solid #AAA;
+}
+
+nav{
+	width: 100%;
+	background-color: #4e525b;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover{
+	border-top: 5px solid #55d3fc;
+	background-color: rgba(85, 211, 252, 0.15);
+}
+.menu-exp:hover{
+	border-top: 5px solid #0e8dc1;
+	background-color: rgba(14, 141, 193, 0.15);
+}
+.menu-hob:hover{
+	border-top: 5px solid #4e4ede;
+	background-color: rgba(78, 78, 222, 0.15);
+}
+.menu-con:hover{
+	border-top: 5px solid #0000d8;
+	background-color: rgba(0, 0, 216, 0.15);
+}
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.sec{
+	margin: 0px 10px;
+}
+
+.left{
+	float: left;
+	width: 30%;
+}
+
+.right{
+	float: left;
+	width: 70%;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+	width: 50%;
+	float: left;
+}
+
+.sec::after, .exp::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+}
