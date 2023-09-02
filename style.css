@@ -56,21 +56,25 @@ nav a{
 	display: table;
 	margin: 0 auto;
 }
-.menu-ind:hover{
+.menu-ind:hover, .presentation{
 	border-top: 5px solid #55d3fc;
 	background-color: rgba(85, 211, 252, 0.15);
+	margin-bottom: 0px;
 }
-.menu-exp:hover{
+.menu-exp:hover, .parcours{
 	border-top: 5px solid #0e8dc1;
 	background-color: rgba(14, 141, 193, 0.15);
+	margin-bottom: 0px;
 }
-.menu-hob:hover{
+.menu-hob:hover, .competences{
 	border-top: 5px solid #4e4ede;
 	background-color: rgba(78, 78, 222, 0.15);
+	margin-bottom: 0px;
 }
-.menu-con:hover{
+.menu-con:hover, .recommandation{
 	border-top: 5px solid #0000d8;
 	background-color: rgba(0, 0, 216, 0.15);
+	margin-bottom: 0px;
 }
 nav li:hover a{
 	padding: 15px 30px 20px 30px;
@@ -86,26 +90,67 @@ section{
 .sec{
 	margin: 0px 10px;
 }
-
 .left{
 	float: left;
 	width: 30%;
 }
-
 .right{
 	float: left;
 	width: 70%;
 }
-
 .cleft, .cright, .sousleft, .sousright{
 	width: 50%;
 	float: left;
 }
-
 .sec::after, .exp::after{
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.sal{
+	width: 170px;
+}
+
+.orange{
+	border-top: 5px solid #c47d26;
+	background-color: rgba(228, 117, 38, 0.15);
+	margin-bottom: 0px;
+}
+.vert{
+	border-top: 5px solid #5f6;
+	background-color: rgba(70, 240, 80, 0.15);
+	margin-bottom: 0px;
+}
+.bleu{
+	border-top: 5px solid #E3CBC6;
+	background-color: rgba(227, 203, 198, 0.15);
+	margin-bottom: 0px;
+}
+.jaune{
+	border-top: 5px solid #f3e241;
+	background-color: rgba(240, 255, 69, 0.15);
+	margin-bottom: 0px;
+}
+.blan{
+	border-top: 5px solid #B58389;
+	background-color: rgba(181, 131, 137, 0.15);
+	margin-bottom: 0px;
+}
+
+.leftexp{
+	width: 45%;
+	float: left;
+}
+.rightexp{
+	width: 50%;
+	float: left;
+	margin-left: 5%;
+}
+
+.leftexp img{
+	width: 100%;
+	max-width: 400px;
 }
 
 
